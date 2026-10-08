@@ -1,0 +1,17 @@
+# 默认按文本处理并统一为 LF，避免跨平台换行符噪音
+* text=auto eol=lf
+
+# 二进制文件不做文本转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.apk binary
+*.wmv binary
+*.pcap binary
+*.mp4 binary
+*.mkv binary
+*.xlsx binary
+*.docx binary
+
+# 无扩展名的第三方二进制
+minipilot-main/unicapture/tcpdump binary
